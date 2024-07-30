@@ -1,0 +1,11 @@
+C:\Users\Matheus\source\repos\MeuDinheiro\Shared.Modelo\bin\Debug\net8.0\Shared.Modelo.deps.json
+C:\Users\Matheus\source\repos\MeuDinheiro\Shared.Modelo\bin\Debug\net8.0\Shared.Modelo.dll
+C:\Users\Matheus\source\repos\MeuDinheiro\Shared.Modelo\bin\Debug\net8.0\Shared.Modelo.pdb
+C:\Users\Matheus\source\repos\MeuDinheiro\Shared.Modelo\obj\Debug\net8.0\Shared.Modelo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Matheus\source\repos\MeuDinheiro\Shared.Modelo\obj\Debug\net8.0\Shared.Modelo.AssemblyInfoInputs.cache
+C:\Users\Matheus\source\repos\MeuDinheiro\Shared.Modelo\obj\Debug\net8.0\Shared.Modelo.AssemblyInfo.cs
+C:\Users\Matheus\source\repos\MeuDinheiro\Shared.Modelo\obj\Debug\net8.0\Shared.Modelo.csproj.CoreCompileInputs.cache
+C:\Users\Matheus\source\repos\MeuDinheiro\Shared.Modelo\obj\Debug\net8.0\Shared.Modelo.dll
+C:\Users\Matheus\source\repos\MeuDinheiro\Shared.Modelo\obj\Debug\net8.0\refint\Shared.Modelo.dll
+C:\Users\Matheus\source\repos\MeuDinheiro\Shared.Modelo\obj\Debug\net8.0\Shared.Modelo.pdb
+C:\Users\Matheus\source\repos\MeuDinheiro\Shared.Modelo\obj\Debug\net8.0\ref\Shared.Modelo.dll

@@ -1,0 +1,17 @@
+C:\Users\Matheus\source\repos\MeuDinheiro\Shared.Dados\bin\Debug\net8.0\Shared.Dados.deps.json
+C:\Users\Matheus\source\repos\MeuDinheiro\Shared.Dados\bin\Debug\net8.0\Shared.Dados.runtimeconfig.json
+C:\Users\Matheus\source\repos\MeuDinheiro\Shared.Dados\bin\Debug\net8.0\Shared.Dados.dll
+C:\Users\Matheus\source\repos\MeuDinheiro\Shared.Dados\bin\Debug\net8.0\Shared.Dados.pdb
+C:\Users\Matheus\source\repos\MeuDinheiro\Shared.Dados\bin\Debug\net8.0\Shared.Modelo.dll
+C:\Users\Matheus\source\repos\MeuDinheiro\Shared.Dados\bin\Debug\net8.0\Shared.Modelo.pdb
+C:\Users\Matheus\source\repos\MeuDinheiro\Shared.Dados\obj\Debug\net8.0\Shared.Dados.csproj.AssemblyReference.cache
+C:\Users\Matheus\source\repos\MeuDinheiro\Shared.Dados\obj\Debug\net8.0\Shared.Dados.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Matheus\source\repos\MeuDinheiro\Shared.Dados\obj\Debug\net8.0\Shared.Dados.AssemblyInfoInputs.cache
+C:\Users\Matheus\source\repos\MeuDinheiro\Shared.Dados\obj\Debug\net8.0\Shared.Dados.AssemblyInfo.cs
+C:\Users\Matheus\source\repos\MeuDinheiro\Shared.Dados\obj\Debug\net8.0\Shared.Dados.csproj.CoreCompileInputs.cache
+C:\Users\Matheus\source\repos\MeuDinheiro\Shared.Dados\obj\Debug\net8.0\Shared.D.157EF073.Up2Date
+C:\Users\Matheus\source\repos\MeuDinheiro\Shared.Dados\obj\Debug\net8.0\Shared.Dados.dll
+C:\Users\Matheus\source\repos\MeuDinheiro\Shared.Dados\obj\Debug\net8.0\refint\Shared.Dados.dll
+C:\Users\Matheus\source\repos\MeuDinheiro\Shared.Dados\obj\Debug\net8.0\Shared.Dados.pdb
+C:\Users\Matheus\source\repos\MeuDinheiro\Shared.Dados\obj\Debug\net8.0\Shared.Dados.genruntimeconfig.cache
+C:\Users\Matheus\source\repos\MeuDinheiro\Shared.Dados\obj\Debug\net8.0\ref\Shared.Dados.dll
