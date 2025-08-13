@@ -5,11 +5,11 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using Shared.Banco;
+using Shared.Bank;
 
 #nullable disable
 
-namespace Shared.Dados.Migrations
+namespace Shared.Data.Migrations
 {
     [DbContext(typeof(MDContext))]
     [Migration("20240729130607_SubindoProjeto")]

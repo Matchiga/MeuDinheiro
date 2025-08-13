@@ -2052,7 +2052,7 @@
           "lib/netcoreapp2.1/_._": {}
         }
       },
-      "Shared.Dados/1.0.0": {
+      "Shared.Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
@@ -2062,23 +2062,23 @@
           "Microsoft.Data.SqlClient": "5.2.1",
           "Microsoft.EntityFrameworkCore.Proxies": "8.0.7",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.7",
-          "Shared.Modelo": "1.0.0"
+          "Shared.Model": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Shared.Dados.dll": {}
+          "bin/placeholder/Shared.Data.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Shared.Dados.dll": {}
+          "bin/placeholder/Shared.Data.dll": {}
         }
       },
-      "Shared.Modelo/1.0.0": {
+      "Shared.Model/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "compile": {
-          "bin/placeholder/Shared.Modelo.dll": {}
+          "bin/placeholder/Shared.Model.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Shared.Modelo.dll": {}
+          "bin/placeholder/Shared.Model.dll": {}
         }
       }
     }
@@ -5446,39 +5446,44 @@
         "version.txt"
       ]
     },
-    "Shared.Dados/1.0.0": {
+    "Shared.Data/1.0.0": {
       "type": "project",
-      "path": "../Shared.Dados/Shared.Dados.csproj",
-      "msbuildProject": "../Shared.Dados/Shared.Dados.csproj"
+      "path": "../Shared.Dados/Shared.Data.csproj",
+      "msbuildProject": "../Shared.Dados/Shared.Data.csproj"
     },
-    "Shared.Modelo/1.0.0": {
+    "Shared.Model/1.0.0": {
       "type": "project",
-      "path": "../Shared.Modelo/Shared.Modelo.csproj",
-      "msbuildProject": "../Shared.Modelo/Shared.Modelo.csproj"
+      "path": "../Shared.Modelo/Shared.Model.csproj",
+      "msbuildProject": "../Shared.Modelo/Shared.Model.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.EntityFrameworkCore.Design >= 8.0.7",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.7",
-      "Shared.Dados >= 1.0.0",
+      "Shared.Data >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.6.2"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Matheus\\.nuget\\packages\\": {}
+    "C:\\Users\\Matheus\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Matheus\\source\\repos\\MeuDinheiro\\MeuDinheiro\\MeuDinheiro.csproj",
-      "projectName": "MeuDinheiro",
-      "projectPath": "C:\\Users\\Matheus\\source\\repos\\MeuDinheiro\\MeuDinheiro\\MeuDinheiro.csproj",
+      "projectUniqueName": "C:\\Users\\Matheus\\source\\repos\\MeuDinheiro\\MeuDinheiro\\MyMoney.csproj",
+      "projectName": "MyMoney",
+      "projectPath": "C:\\Users\\Matheus\\source\\repos\\MeuDinheiro\\MeuDinheiro\\MyMoney.csproj",
       "packagesPath": "C:\\Users\\Matheus\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Matheus\\source\\repos\\MeuDinheiro\\MeuDinheiro\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
         "C:\\Users\\Matheus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5486,15 +5491,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Matheus\\source\\repos\\MeuDinheiro\\Shared.Dados\\Shared.Dados.csproj": {
-              "projectPath": "C:\\Users\\Matheus\\source\\repos\\MeuDinheiro\\Shared.Dados\\Shared.Dados.csproj"
+            "C:\\Users\\Matheus\\source\\repos\\MeuDinheiro\\Shared.Dados\\Shared.Data.csproj": {
+              "projectPath": "C:\\Users\\Matheus\\source\\repos\\MeuDinheiro\\Shared.Dados\\Shared.Data.csproj"
             }
           }
         }
@@ -5508,7 +5512,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0": {
@@ -5550,7 +5555,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wO/O5682aLs=",
+  "dgSpecHash": "2qJCgdNSSu0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Matheus\\source\\repos\\MeuDinheiro\\MeuDinheiro\\MeuDinheiro.csproj",
+  "projectFilePath": "C:\\Users\\Matheus\\source\\repos\\MeuDinheiro\\MeuDinheiro\\MyMoney.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Matheus\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Matheus\\.nuget\\packages\\azure.identity\\1.11.3\\azure.identity.1.11.3.nupkg.sha512",

@@ -1,10 +1,10 @@
-using MeuDinheiro.Endpoints;
+using MyMoney.Endpoints;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Shared.Banco;
-using Shared.Dados.Modelos;
-using Shared.Modelos;
+using Shared.Bank;
+using Shared.Data.Models;
+using Shared.Models;
 using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -13,13 +13,13 @@ builder.Services.AddDbContext<MDContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("MDContext")));
 
 builder.Services
-    .AddIdentityApiEndpoints<PessoaComAcesso>()
+    .AddIdentityApiEndpoints<PersonWithAccess>()
     .AddEntityFrameworkStores<MDContext>();
 
 builder.Services.AddAuthorization();
 
-builder.Services.AddTransient<DAO<Receitas>>();
-builder.Services.AddTransient<DAO<Despesas>>();
+builder.Services.AddTransient<DAO<Revenues>>();
+builder.Services.AddTransient<DAO<Cost>>();
 
 builder.Services.AddControllers();
 
@@ -37,16 +37,16 @@ app.UseCors("wasm");
 app.UseStaticFiles();
 app.UseAuthorization();
 
-app.AddDespesasEndpoints();
-app.AddReceitasEndpoints();
+app.AddCostEndpoints();
+app.AddRevenuesEndpoints();
 
-app.MapGroup("auth").MapIdentityApi<PessoaComAcesso>().WithTags("Autorização");
+app.MapGroup("auth").MapIdentityApi<PersonWithAccess>().WithTags("Authorization");
 
-app.MapPost("auth/logout", async ([FromServices] SignInManager<PessoaComAcesso> signInManager) =>
+app.MapPost("auth/logout", async ([FromServices] SignInManager<PersonWithAccess> signInManager) =>
 {
     await signInManager.SignOutAsync();
     Results.Ok();
-}).RequireAuthorization().WithTags("Autorização");
+}).RequireAuthorization().WithTags("Authorization");
 
 if (app.Environment.IsDevelopment())
 {
@@ -63,13 +63,13 @@ app.Use(async (context, next) =>
     if (context.Response.StatusCode == 401)
     {
         context.Response.ContentType = "text/plain";
-        await context.Response.WriteAsync("Não autorizado");
+        await context.Response.WriteAsync("Unauthorized");
         await context.Response.CompleteAsync();
     }
     else if (context.Response.StatusCode == 403)
     {
         context.Response.ContentType = "text/plain";
-        await context.Response.WriteAsync("Credenciais inválidas");
+        await context.Response.WriteAsync("Invalid credentials");
         await context.Response.CompleteAsync();
     }
 });

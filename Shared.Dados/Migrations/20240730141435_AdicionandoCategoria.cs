@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace Shared.Dados.Migrations
+namespace Shared.Data.Migrations
 {
     /// <inheritdoc />
     public partial class AdicionandoCategoria : Migration

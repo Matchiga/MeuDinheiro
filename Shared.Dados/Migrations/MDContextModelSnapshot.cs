@@ -4,11 +4,11 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using Shared.Banco;
+using Shared.Bank;
 
 #nullable disable
 
-namespace Shared.Dados.Migrations
+namespace Shared.Data.Migrations
 {
     [DbContext(typeof(MDContext))]
     partial class MDContextModelSnapshot : ModelSnapshot

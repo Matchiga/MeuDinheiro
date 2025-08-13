@@ -1,135 +1,135 @@
-﻿using Shared.Banco;
-using Shared.Modelos;
-using Shared.Dados.Modelos;
+﻿using Shared.Bank;
+using Shared.Models;
+using Shared.Data.Models;
 using Microsoft.AspNetCore.Mvc;
-using MeuDinheiro.Response;
+using MyMoney.Response;
 using System.Runtime.CompilerServices;
-using MeuDinheiro.Request;
+using MyMoney.Request;
 
-namespace MeuDinheiro.Endpoints;
+namespace MyMoney.Endpoints;
 
 public static class DespesasEndpoint
 {
-    public static void AddDespesasEndpoints(this WebApplication app)
+    public static void AddCostEndpoints(this WebApplication app)
     {
-        var groupBuilder = app.MapGroup("despesas")
+        var groupBuilder = app.MapGroup("Costs")
             .RequireAuthorization()
-            .WithTags("Despesas");
+            .WithTags("Costs");
 
-        groupBuilder.MapGet("", ([FromServices] DAO<Despesas> dao) =>
+        groupBuilder.MapGet("", ([FromServices] DAO<Cost> dao) =>
         {
-            var listaDeDespesas = dao.Listar();
-            if (listaDeDespesas is null)
+            var costList = dao.List();
+            if (costList is null)
             {
                 return Results.NotFound();
             }
-            var listaDeDespesasResponse = EntityListToResponseList(listaDeDespesas);
-            return Results.Ok(listaDeDespesasResponse);
+            var costListResponse = EntityListToResponseList(costList);
+            return Results.Ok(costListResponse);
         });
 
-        groupBuilder.MapGet("{id}", ([FromServices] DAO<Despesas> dao, int id) =>
+        groupBuilder.MapGet("{id}", ([FromServices] DAO<Cost> dao, int id) =>
         {
-            var despesas = dao.RecuperarPor(a => a.Id == id);
-            if (despesas is null)
+            var cost = dao.RecoverBy(a => a.Id == id);
+            if (cost is null)
             {
                 return Results.NotFound();
             }
-            var despesasResponse = EntityToResponse(despesas);
-            return Results.Ok(despesasResponse);
+            var costResponse = EntityToResponse(cost);
+            return Results.Ok(costResponse);
         });
 
-        groupBuilder.MapGet("/buscar", ([FromServices] DAO<Despesas> dao, string? descricao = "") =>
+        groupBuilder.MapGet("/search", ([FromServices] DAO<Cost> dao, string? description = "") =>
         {
-            IEnumerable<Despesas> listaDeDespesas = dao.Listar();
+            IEnumerable<Cost> costList = dao.List();
 
-            if (!string.IsNullOrEmpty(descricao))
+            if (!string.IsNullOrEmpty(description))
             {
-                listaDeDespesas = listaDeDespesas.Where(d => d.Descricao.Contains(descricao, StringComparison.OrdinalIgnoreCase));
+                costList = costList.Where(d => d.Description.Contains(description, StringComparison.OrdinalIgnoreCase));
             }
 
-            if (listaDeDespesas == null || !listaDeDespesas.Any())
-            {
-                return Results.NotFound();
-            }
-
-            var listaDeDespesasResponse = EntityListToResponseList(listaDeDespesas);
-            return Results.Ok(listaDeDespesasResponse);
-        });
-
-        groupBuilder.MapGet("/{ano:int}/{mes:int}", ([FromServices] DAO<Despesas> dao, int ano, int mes) =>
-        {
-            var despesasDoMes = dao.Listar().Where(d => d.Data.Year == ano && d.Data.Month == mes);
-
-            if (!despesasDoMes.Any())
+            if (costList == null || !costList.Any())
             {
                 return Results.NotFound();
             }
 
-            var despesasResponse = EntityListToResponseList(despesasDoMes);
-            return Results.Ok(despesasResponse);
+            var costListResponse = EntityListToResponseList(costList);
+            return Results.Ok(costListResponse);
         });
 
-        groupBuilder.MapPost("", ([FromServices] DAO<Despesas> dal, [FromBody] DespesaRequest despesaRequest) =>
+        groupBuilder.MapGet("/{year:int}/{month:int}", ([FromServices] DAO<Cost> dao, int year, int month) =>
         {
-            var despesas = new Despesas(despesaRequest.Id, despesaRequest.Descricao, despesaRequest.Valor, despesaRequest.Data);
+            var monthlyCostList = dao.List().Where(d => d.Date.Year == year && d.Date.Month == month);
 
-            if (despesaRequest.Descricao is null)
+            if (!monthlyCostList.Any())
+            {
+                return Results.NotFound();
+            }
+
+            var costResponse = EntityListToResponseList(monthlyCostList);
+            return Results.Ok(costResponse);
+        });
+
+        groupBuilder.MapPost("", ([FromServices] DAO<Cost> dal, [FromBody] CostRequest costRequest) =>
+        {
+            var cost = new Cost(costRequest.Id, costRequest.Description, costRequest.Value, costRequest.Date);
+
+            if (costRequest.Description is null)
             {
                 return Results.BadRequest();
             }
 
-            dal.Adicionar(despesas);
-            return Results.Ok(EntityToResponse(despesas));
+            dal.Add(cost);
+            return Results.Ok(EntityToResponse(cost));
         });
 
-        groupBuilder.MapPut("", ([FromServices] DAO<Despesas> dao, [FromBody] DespesaRequest despesasRequest) =>
+        groupBuilder.MapPut("", ([FromServices] DAO<Cost> dao, [FromBody] CostRequest costRequest) =>
         {
-            var categoriasAtualizar = dao.RecuperarPor(a => a.Id == despesasRequest.Id);
-            if (categoriasAtualizar is null)
+            var categoriesUpdate = dao.RecoverBy(a => a.Id == costRequest.Id);
+            if (categoriesUpdate is null)
             {
                 return Results.NotFound();
             }
-            categoriasAtualizar.Descricao = despesasRequest.Descricao;
-            categoriasAtualizar.Valor = despesasRequest.Valor;
+            categoriesUpdate.Description = costRequest.Description;
+            categoriesUpdate.Value = costRequest.Value;
 
-            dao.Atualizar(categoriasAtualizar);
+            dao.Update(categoriesUpdate);
             return Results.Ok();
         });
 
-        groupBuilder.MapDelete("{id}", ([FromServices] DAO<Despesas> dal, int id) =>
+        groupBuilder.MapDelete("{id}", ([FromServices] DAO<Cost> dal, int id) =>
         {
-            var despesas = dal.RecuperarPor(a => a.Id == id);
-            if (despesas is null)
+            var cost = dal.RecoverBy(a => a.Id == id);
+            if (cost is null)
             {
                 return Results.NotFound();
             }
-            dal.Deletar(despesas);
+            dal.Remove(cost);
             return Results.Ok();
         });
 
-        groupBuilder.MapGet("/resumo/{ano:int}/{mes:int}",([FromServices] DAO<Despesas> daoDespesas,[FromServices]DAO<Receitas> daoReceitas, int ano, int mes) =>
+        groupBuilder.MapGet("/summary/{year:int}/{month:int}",([FromServices] DAO<Cost> daoCost,[FromServices]DAO<Revenues> daoRecipes, int year, int month) =>
         {
-            var despesasDoMes = daoDespesas.Listar().Where(d => d.Data.Year == ano && d.Data.Month == mes);
-            var receitasDoMes = daoReceitas.Listar().Where(r => r.Data.Year == ano && r.Data.Month == mes);
+            var monthlyCostList = daoCost.List().Where(d => d.Date.Year == year && d.Date.Month == month);
+            var recipesOfTheMonth = daoRecipes.List().Where(r => r.Date.Year == year && r.Date.Month == month);
 
-            var resumo = new ResumoResponse
+            var summary = new SummaryResponse
             {
-                TotalReceitas = receitasDoMes.Sum(r => r.Valor),
-                TotalDespesas = despesasDoMes.Sum(d => d.Valor),
-                SaldoFinal = receitasDoMes.Sum(r => r.Valor) - despesasDoMes.Sum(d => d.Valor), GastosPorCategoria = despesasDoMes.GroupBy(d => d.Categoria?.Nome ?? "Sem Categoria").ToDictionary(g => g.Key, g => g.Sum(d => d.Valor))
+                TotalRevenues = recipesOfTheMonth.Sum(r => r.Value),
+                TotalCost = monthlyCostList.Sum(d => d.Value),
+                FinalBalance = recipesOfTheMonth.Sum(r => r.Value) - monthlyCostList.Sum(d => d.Value), ExpensesByCategory = monthlyCostList.GroupBy(d => d.Category?.Name ?? "Uncategorized").ToDictionary(g => g.Key, g => g.Sum(d => d.Value))
             };
 
-           return Results.Ok(resumo);
+           return Results.Ok(summary);
         });
     }
 
-    private static ICollection<DespesaResponse> EntityListToResponseList(IEnumerable<Despesas> listaDeCategorias)
+    private static ICollection<CostResponse> EntityListToResponseList(IEnumerable<Cost> categoryList)
     {
-        return listaDeCategorias.Select(a => EntityToResponse(a)).ToList();
+        return categoryList.Select(a => EntityToResponse(a)).ToList();
     }
 
-    private static DespesaResponse EntityToResponse(Despesas despesas)
+    private static CostResponse EntityToResponse(Cost cost)
     {
-        return new DespesaResponse(despesas.Id, despesas.Descricao, despesas.Valor, despesas.Data, despesas.CategoriaId, despesas.Categoria?.Nome ?? "");
+        return new CostResponse(cost.Id, cost.Description, cost.Value, cost.Date, cost.CategoryId, cost.Category?.Name ?? "");
     }
 }

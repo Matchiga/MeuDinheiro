@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace Shared.Dados.Migrations
+namespace Shared.Data.Migrations
 {
     /// <inheritdoc />
     public partial class SubindoProjeto : Migration
