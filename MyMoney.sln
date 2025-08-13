@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeuDinheiro", "MeuDinheiro\MeuDinheiro.csproj", "{F5048079-2210-4710-A5C0-AE0E7C1C9A97}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyMoney", "MeuDinheiro\MyMoney.csproj", "{F5048079-2210-4710-A5C0-AE0E7C1C9A97}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared.Modelo", "Shared.Modelo\Shared.Modelo.csproj", "{99A2120F-C40F-47FC-9ACE-D15D2EC9EF00}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared.Model", "Shared.Modelo\Shared.Model.csproj", "{99A2120F-C40F-47FC-9ACE-D15D2EC9EF00}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared.Dados", "Shared.Dados\Shared.Dados.csproj", "{A3923566-226B-46E9-9908-A7712CE4CCE9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared.Data", "Shared.Dados\Shared.Data.csproj", "{A3923566-226B-46E9-9908-A7712CE4CCE9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

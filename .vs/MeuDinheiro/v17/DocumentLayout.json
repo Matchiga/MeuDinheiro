@@ -3,44 +3,72 @@
   "WorkspaceRootPath": "C:\\Users\\Matheus\\source\\repos\\MeuDinheiro\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F5048079-2210-4710-A5C0-AE0E7C1C9A97}|MeuDinheiro\\MyMoney.csproj|c:\\users\\matheus\\source\\repos\\meudinheiro\\meudinheiro\\mymoney.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F5048079-2210-4710-A5C0-AE0E7C1C9A97}|MeuDinheiro\\MyMoney.csproj|solutionrelative:meudinheiro\\mymoney.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3923566-226B-46E9-9908-A7712CE4CCE9}|Shared.Dados\\Shared.Data.csproj|c:\\users\\matheus\\source\\repos\\meudinheiro\\shared.dados\\shared.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A3923566-226B-46E9-9908-A7712CE4CCE9}|Shared.Dados\\Shared.Data.csproj|solutionrelative:shared.dados\\shared.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99A2120F-C40F-47FC-9ACE-D15D2EC9EF00}|Shared.Modelo\\Shared.Model.csproj|c:\\users\\matheus\\source\\repos\\meudinheiro\\shared.modelo\\shared.model.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{99A2120F-C40F-47FC-9ACE-D15D2EC9EF00}|Shared.Modelo\\Shared.Model.csproj|solutionrelative:shared.modelo\\shared.model.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F5048079-2210-4710-A5C0-AE0E7C1C9A97}|MeuDinheiro\\MeuDinheiro.csproj|c:\\users\\matheus\\source\\repos\\meudinheiro\\meudinheiro\\endpoints\\despesasendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F5048079-2210-4710-A5C0-AE0E7C1C9A97}|MeuDinheiro\\MeuDinheiro.csproj|solutionrelative:meudinheiro\\endpoints\\despesasendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5048079-2210-4710-A5C0-AE0E7C1C9A97}|MeuDinheiro\\MeuDinheiro.csproj|c:\\users\\matheus\\source\\repos\\meudinheiro\\meudinheiro\\response\\resumoresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5048079-2210-4710-A5C0-AE0E7C1C9A97}|MeuDinheiro\\MeuDinheiro.csproj|solutionrelative:meudinheiro\\response\\resumoresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F5048079-2210-4710-A5C0-AE0E7C1C9A97}|MeuDinheiro\\MeuDinheiro.csproj|c:\\users\\matheus\\source\\repos\\meudinheiro\\meudinheiro\\endpoints\\revenuesendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5048079-2210-4710-A5C0-AE0E7C1C9A97}|MeuDinheiro\\MeuDinheiro.csproj|solutionrelative:meudinheiro\\endpoints\\revenuesendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5048079-2210-4710-A5C0-AE0E7C1C9A97}|MeuDinheiro\\MeuDinheiro.csproj|c:\\users\\matheus\\source\\repos\\meudinheiro\\meudinheiro\\response\\despesaresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5048079-2210-4710-A5C0-AE0E7C1C9A97}|MeuDinheiro\\MeuDinheiro.csproj|solutionrelative:meudinheiro\\response\\despesaresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F5048079-2210-4710-A5C0-AE0E7C1C9A97}|MeuDinheiro\\MeuDinheiro.csproj|c:\\users\\matheus\\source\\repos\\meudinheiro\\meudinheiro\\request\\costrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5048079-2210-4710-A5C0-AE0E7C1C9A97}|MeuDinheiro\\MeuDinheiro.csproj|solutionrelative:meudinheiro\\request\\costrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{99A2120F-C40F-47FC-9ACE-D15D2EC9EF00}|Shared.Modelo\\Shared.Modelo.csproj|c:\\users\\matheus\\source\\repos\\meudinheiro\\shared.modelo\\modelos\\despesas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{99A2120F-C40F-47FC-9ACE-D15D2EC9EF00}|Shared.Modelo\\Shared.Modelo.csproj|solutionrelative:shared.modelo\\modelos\\despesas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F5048079-2210-4710-A5C0-AE0E7C1C9A97}|MeuDinheiro\\MeuDinheiro.csproj|c:\\users\\matheus\\source\\repos\\meudinheiro\\meudinheiro\\request\\costrequestedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5048079-2210-4710-A5C0-AE0E7C1C9A97}|MeuDinheiro\\MeuDinheiro.csproj|solutionrelative:meudinheiro\\request\\costrequestedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{99A2120F-C40F-47FC-9ACE-D15D2EC9EF00}|Shared.Modelo\\Shared.Modelo.csproj|c:\\users\\matheus\\source\\repos\\meudinheiro\\shared.modelo\\modelos\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{99A2120F-C40F-47FC-9ACE-D15D2EC9EF00}|Shared.Modelo\\Shared.Modelo.csproj|solutionrelative:shared.modelo\\modelos\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F5048079-2210-4710-A5C0-AE0E7C1C9A97}|MeuDinheiro\\MeuDinheiro.csproj|c:\\users\\matheus\\source\\repos\\meudinheiro\\meudinheiro\\request\\revenuerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5048079-2210-4710-A5C0-AE0E7C1C9A97}|MeuDinheiro\\MeuDinheiro.csproj|solutionrelative:meudinheiro\\request\\revenuerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5048079-2210-4710-A5C0-AE0E7C1C9A97}|MeuDinheiro\\MeuDinheiro.csproj|c:\\users\\matheus\\source\\repos\\meudinheiro\\meudinheiro\\request\\revenuerequestedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5048079-2210-4710-A5C0-AE0E7C1C9A97}|MeuDinheiro\\MeuDinheiro.csproj|solutionrelative:meudinheiro\\request\\revenuerequestedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5048079-2210-4710-A5C0-AE0E7C1C9A97}|MeuDinheiro\\MeuDinheiro.csproj|c:\\users\\matheus\\source\\repos\\meudinheiro\\meudinheiro\\response\\costresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5048079-2210-4710-A5C0-AE0E7C1C9A97}|MeuDinheiro\\MeuDinheiro.csproj|solutionrelative:meudinheiro\\response\\costresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5048079-2210-4710-A5C0-AE0E7C1C9A97}|MeuDinheiro\\MeuDinheiro.csproj|c:\\users\\matheus\\source\\repos\\meudinheiro\\meudinheiro\\response\\revenueresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5048079-2210-4710-A5C0-AE0E7C1C9A97}|MeuDinheiro\\MeuDinheiro.csproj|solutionrelative:meudinheiro\\response\\revenueresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5048079-2210-4710-A5C0-AE0E7C1C9A97}|MeuDinheiro\\MeuDinheiro.csproj|c:\\users\\matheus\\source\\repos\\meudinheiro\\meudinheiro\\response\\summaryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5048079-2210-4710-A5C0-AE0E7C1C9A97}|MeuDinheiro\\MeuDinheiro.csproj|solutionrelative:meudinheiro\\response\\summaryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F5048079-2210-4710-A5C0-AE0E7C1C9A97}|MeuDinheiro\\MeuDinheiro.csproj|c:\\users\\matheus\\source\\repos\\meudinheiro\\meudinheiro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F5048079-2210-4710-A5C0-AE0E7C1C9A97}|MeuDinheiro\\MeuDinheiro.csproj|solutionrelative:meudinheiro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5048079-2210-4710-A5C0-AE0E7C1C9A97}|MeuDinheiro\\MeuDinheiro.csproj|c:\\users\\matheus\\source\\repos\\meudinheiro\\meudinheiro\\endpoints\\receitasendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5048079-2210-4710-A5C0-AE0E7C1C9A97}|MeuDinheiro\\MeuDinheiro.csproj|solutionrelative:meudinheiro\\endpoints\\receitasendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A3923566-226B-46E9-9908-A7712CE4CCE9}|Shared.Dados\\Shared.Dados.csproj|c:\\users\\matheus\\source\\repos\\meudinheiro\\shared.dados\\bank\\dao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3923566-226B-46E9-9908-A7712CE4CCE9}|Shared.Dados\\Shared.Dados.csproj|solutionrelative:shared.dados\\bank\\dao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5048079-2210-4710-A5C0-AE0E7C1C9A97}|MeuDinheiro\\MeuDinheiro.csproj|c:\\users\\matheus\\source\\repos\\meudinheiro\\meudinheiro\\request\\despesarequestedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5048079-2210-4710-A5C0-AE0E7C1C9A97}|MeuDinheiro\\MeuDinheiro.csproj|solutionrelative:meudinheiro\\request\\despesarequestedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A3923566-226B-46E9-9908-A7712CE4CCE9}|Shared.Dados\\Shared.Dados.csproj|c:\\users\\matheus\\source\\repos\\meudinheiro\\shared.dados\\bank\\mdcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3923566-226B-46E9-9908-A7712CE4CCE9}|Shared.Dados\\Shared.Dados.csproj|solutionrelative:shared.dados\\bank\\mdcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5048079-2210-4710-A5C0-AE0E7C1C9A97}|MeuDinheiro\\MeuDinheiro.csproj|c:\\users\\matheus\\source\\repos\\meudinheiro\\meudinheiro\\request\\despesarequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5048079-2210-4710-A5C0-AE0E7C1C9A97}|MeuDinheiro\\MeuDinheiro.csproj|solutionrelative:meudinheiro\\request\\despesarequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A3923566-226B-46E9-9908-A7712CE4CCE9}|Shared.Dados\\Shared.Dados.csproj|c:\\users\\matheus\\source\\repos\\meudinheiro\\shared.dados\\models\\personwithaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3923566-226B-46E9-9908-A7712CE4CCE9}|Shared.Dados\\Shared.Dados.csproj|solutionrelative:shared.dados\\models\\personwithaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A3923566-226B-46E9-9908-A7712CE4CCE9}|Shared.Dados\\Shared.Dados.csproj|c:\\users\\matheus\\source\\repos\\meudinheiro\\shared.dados\\banco\\mdcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3923566-226B-46E9-9908-A7712CE4CCE9}|Shared.Dados\\Shared.Dados.csproj|solutionrelative:shared.dados\\banco\\mdcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A3923566-226B-46E9-9908-A7712CE4CCE9}|Shared.Dados\\Shared.Dados.csproj|c:\\users\\matheus\\source\\repos\\meudinheiro\\shared.dados\\models\\accessprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3923566-226B-46E9-9908-A7712CE4CCE9}|Shared.Dados\\Shared.Dados.csproj|solutionrelative:shared.dados\\models\\accessprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MeuDinheiro/True/SqlTable/dbo.Categoria.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
@@ -53,17 +81,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Matheus\\source\\repos\\MeuDinheiro\\MeuDinheiro\\Program.cs",
               "RelativeDocumentMoniker": "MeuDinheiro\\Program.cs",
               "ToolTip": "C:\\Users\\Matheus\\source\\repos\\MeuDinheiro\\MeuDinheiro\\Program.cs",
               "RelativeToolTip": "MeuDinheiro\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE0AAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-29T10:20:45.084Z",
               "IsPinned": true,
@@ -71,15 +99,80 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Shared.Model.csproj",
+              "DocumentMoniker": "C:\\Users\\Matheus\\source\\repos\\MeuDinheiro\\Shared.Modelo\\Shared.Model.csproj",
+              "RelativeDocumentMoniker": "Shared.Modelo\\Shared.Model.csproj",
+              "ToolTip": "C:\\Users\\Matheus\\source\\repos\\MeuDinheiro\\Shared.Modelo\\Shared.Model.csproj",
+              "RelativeToolTip": "Shared.Modelo\\Shared.Model.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-13T01:21:38.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Shared.Data.csproj",
+              "DocumentMoniker": "C:\\Users\\Matheus\\source\\repos\\MeuDinheiro\\Shared.Dados\\Shared.Data.csproj",
+              "RelativeDocumentMoniker": "Shared.Dados\\Shared.Data.csproj",
+              "ToolTip": "C:\\Users\\Matheus\\source\\repos\\MeuDinheiro\\Shared.Dados\\Shared.Data.csproj",
+              "RelativeToolTip": "Shared.Dados\\Shared.Data.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-13T01:21:24.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DespesasEndpoint.cs",
-              "DocumentMoniker": "C:\\Users\\Matheus\\source\\repos\\MeuDinheiro\\MeuDinheiro\\Endpoints\\DespesasEndpoint.cs",
-              "RelativeDocumentMoniker": "MeuDinheiro\\Endpoints\\DespesasEndpoint.cs",
-              "ToolTip": "C:\\Users\\Matheus\\source\\repos\\MeuDinheiro\\MeuDinheiro\\Endpoints\\DespesasEndpoint.cs",
-              "RelativeToolTip": "MeuDinheiro\\Endpoints\\DespesasEndpoint.cs",
-              "ViewState": "AQIAAEEAAAAAAAAAAAAUwIYAAAABAAAA",
+              "Title": "MyMoney.csproj",
+              "DocumentMoniker": "C:\\Users\\Matheus\\source\\repos\\MeuDinheiro\\MeuDinheiro\\MyMoney.csproj",
+              "RelativeDocumentMoniker": "MeuDinheiro\\MyMoney.csproj",
+              "ToolTip": "C:\\Users\\Matheus\\source\\repos\\MeuDinheiro\\MeuDinheiro\\MyMoney.csproj",
+              "RelativeToolTip": "MeuDinheiro\\MyMoney.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-13T01:20:57.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RevenueRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Matheus\\source\\repos\\MeuDinheiro\\MeuDinheiro\\Request\\RevenueRequest.cs",
+              "RelativeDocumentMoniker": "MeuDinheiro\\Request\\RevenueRequest.cs",
+              "ToolTip": "C:\\Users\\Matheus\\source\\repos\\MeuDinheiro\\MeuDinheiro\\Request\\RevenueRequest.cs",
+              "RelativeToolTip": "MeuDinheiro\\Request\\RevenueRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T13:05:11.757Z",
+              "WhenOpened": "2025-08-13T01:03:09.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RevenueRequestEdit.cs",
+              "DocumentMoniker": "C:\\Users\\Matheus\\source\\repos\\MeuDinheiro\\MeuDinheiro\\Request\\RevenueRequestEdit.cs",
+              "RelativeDocumentMoniker": "MeuDinheiro\\Request\\RevenueRequestEdit.cs",
+              "ToolTip": "C:\\Users\\Matheus\\source\\repos\\MeuDinheiro\\MeuDinheiro\\Request\\RevenueRequestEdit.cs",
+              "RelativeToolTip": "MeuDinheiro\\Request\\RevenueRequestEdit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T01:02:21.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RevenueResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Matheus\\source\\repos\\MeuDinheiro\\MeuDinheiro\\Response\\RevenueResponse.cs",
+              "RelativeDocumentMoniker": "MeuDinheiro\\Response\\RevenueResponse.cs",
+              "ToolTip": "C:\\Users\\Matheus\\source\\repos\\MeuDinheiro\\MeuDinheiro\\Response\\RevenueResponse.cs",
+              "RelativeToolTip": "MeuDinheiro\\Response\\RevenueResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T01:00:34.408Z",
               "EditorCaption": ""
             },
             {
@@ -88,52 +181,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Despesas.cs",
-              "DocumentMoniker": "C:\\Users\\Matheus\\source\\repos\\MeuDinheiro\\Shared.Modelo\\Modelos\\Despesas.cs",
-              "RelativeDocumentMoniker": "Shared.Modelo\\Modelos\\Despesas.cs",
-              "ToolTip": "C:\\Users\\Matheus\\source\\repos\\MeuDinheiro\\Shared.Modelo\\Modelos\\Despesas.cs",
-              "RelativeToolTip": "Shared.Modelo\\Modelos\\Despesas.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAA1wBMAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T13:05:16.319Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Categoria.cs",
-              "DocumentMoniker": "C:\\Users\\Matheus\\source\\repos\\MeuDinheiro\\Shared.Modelo\\Modelos\\Categoria.cs",
-              "RelativeDocumentMoniker": "Shared.Modelo\\Modelos\\Categoria.cs",
-              "ToolTip": "C:\\Users\\Matheus\\source\\repos\\MeuDinheiro\\Shared.Modelo\\Modelos\\Categoria.cs",
-              "RelativeToolTip": "Shared.Modelo\\Modelos\\Categoria.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T13:27:49.296Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DespesaResponse.cs",
-              "DocumentMoniker": "C:\\Users\\Matheus\\source\\repos\\MeuDinheiro\\MeuDinheiro\\Response\\DespesaResponse.cs",
-              "RelativeDocumentMoniker": "MeuDinheiro\\Response\\DespesaResponse.cs",
-              "ToolTip": "C:\\Users\\Matheus\\source\\repos\\MeuDinheiro\\MeuDinheiro\\Response\\DespesaResponse.cs",
-              "RelativeToolTip": "MeuDinheiro\\Response\\DespesaResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAB8AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T13:53:43.312Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ResumoResponse.cs",
-              "DocumentMoniker": "C:\\Users\\Matheus\\source\\repos\\MeuDinheiro\\MeuDinheiro\\Response\\ResumoResponse.cs",
-              "RelativeDocumentMoniker": "MeuDinheiro\\Response\\ResumoResponse.cs",
-              "ToolTip": "C:\\Users\\Matheus\\source\\repos\\MeuDinheiro\\MeuDinheiro\\Response\\ResumoResponse.cs",
-              "RelativeToolTip": "MeuDinheiro\\Response\\ResumoResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "DocumentIndex": 11,
+              "Title": "SummaryResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Matheus\\source\\repos\\MeuDinheiro\\MeuDinheiro\\Response\\SummaryResponse.cs",
+              "RelativeDocumentMoniker": "MeuDinheiro\\Response\\SummaryResponse.cs",
+              "ToolTip": "C:\\Users\\Matheus\\source\\repos\\MeuDinheiro\\MeuDinheiro\\Response\\SummaryResponse.cs",
+              "RelativeToolTip": "MeuDinheiro\\Response\\SummaryResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-30T14:58:31.388Z",
               "EditorCaption": ""
@@ -141,64 +195,128 @@
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "ReceitasEndpoint.cs",
-              "DocumentMoniker": "C:\\Users\\Matheus\\source\\repos\\MeuDinheiro\\MeuDinheiro\\Endpoints\\ReceitasEndpoint.cs",
-              "RelativeDocumentMoniker": "MeuDinheiro\\Endpoints\\ReceitasEndpoint.cs",
-              "ToolTip": "C:\\Users\\Matheus\\source\\repos\\MeuDinheiro\\MeuDinheiro\\Endpoints\\ReceitasEndpoint.cs",
-              "RelativeToolTip": "MeuDinheiro\\Endpoints\\ReceitasEndpoint.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAUwEAAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T14:39:22.843Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "DespesaRequest.cs",
-              "DocumentMoniker": "C:\\Users\\Matheus\\source\\repos\\MeuDinheiro\\MeuDinheiro\\Request\\DespesaRequest.cs",
-              "RelativeDocumentMoniker": "MeuDinheiro\\Request\\DespesaRequest.cs",
-              "ToolTip": "C:\\Users\\Matheus\\source\\repos\\MeuDinheiro\\MeuDinheiro\\Request\\DespesaRequest.cs",
-              "RelativeToolTip": "MeuDinheiro\\Request\\DespesaRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T13:49:50.945Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DespesaRequestEdit.cs",
-              "DocumentMoniker": "C:\\Users\\Matheus\\source\\repos\\MeuDinheiro\\MeuDinheiro\\Request\\DespesaRequestEdit.cs",
-              "RelativeDocumentMoniker": "MeuDinheiro\\Request\\DespesaRequestEdit.cs",
-              "ToolTip": "C:\\Users\\Matheus\\source\\repos\\MeuDinheiro\\MeuDinheiro\\Request\\DespesaRequestEdit.cs",
-              "RelativeToolTip": "MeuDinheiro\\Request\\DespesaRequestEdit.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAACjAAAA",
+              "Title": "CostRequestEdit.cs",
+              "DocumentMoniker": "C:\\Users\\Matheus\\source\\repos\\MeuDinheiro\\MeuDinheiro\\Request\\CostRequestEdit.cs",
+              "RelativeDocumentMoniker": "MeuDinheiro\\Request\\CostRequestEdit.cs",
+              "ToolTip": "C:\\Users\\Matheus\\source\\repos\\MeuDinheiro\\MeuDinheiro\\Request\\CostRequestEdit.cs",
+              "RelativeToolTip": "MeuDinheiro\\Request\\CostRequestEdit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-30T13:53:18.717Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CostRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Matheus\\source\\repos\\MeuDinheiro\\MeuDinheiro\\Request\\CostRequest.cs",
+              "RelativeDocumentMoniker": "MeuDinheiro\\Request\\CostRequest.cs",
+              "ToolTip": "C:\\Users\\Matheus\\source\\repos\\MeuDinheiro\\MeuDinheiro\\Request\\CostRequest.cs",
+              "RelativeToolTip": "MeuDinheiro\\Request\\CostRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T13:49:50.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RevenuesEndpoint.cs",
+              "DocumentMoniker": "C:\\Users\\Matheus\\source\\repos\\MeuDinheiro\\MeuDinheiro\\Endpoints\\RevenuesEndpoint.cs",
+              "RelativeDocumentMoniker": "MeuDinheiro\\Endpoints\\RevenuesEndpoint.cs",
+              "ToolTip": "C:\\Users\\Matheus\\source\\repos\\MeuDinheiro\\MeuDinheiro\\Endpoints\\RevenuesEndpoint.cs",
+              "RelativeToolTip": "MeuDinheiro\\Endpoints\\RevenuesEndpoint.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T14:39:22.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DespesasEndpoint.cs",
+              "DocumentMoniker": "C:\\Users\\Matheus\\source\\repos\\MeuDinheiro\\MeuDinheiro\\Endpoints\\DespesasEndpoint.cs",
+              "RelativeDocumentMoniker": "MeuDinheiro\\Endpoints\\DespesasEndpoint.cs",
+              "ToolTip": "C:\\Users\\Matheus\\source\\repos\\MeuDinheiro\\MeuDinheiro\\Endpoints\\DespesasEndpoint.cs",
+              "RelativeToolTip": "MeuDinheiro\\Endpoints\\DespesasEndpoint.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHYAAAByAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T13:05:11.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DAO.cs",
+              "DocumentMoniker": "C:\\Users\\Matheus\\source\\repos\\MeuDinheiro\\Shared.Dados\\Bank\\DAO.cs",
+              "RelativeDocumentMoniker": "Shared.Dados\\Bank\\DAO.cs",
+              "ToolTip": "C:\\Users\\Matheus\\source\\repos\\MeuDinheiro\\Shared.Dados\\Bank\\DAO.cs",
+              "RelativeToolTip": "Shared.Dados\\Bank\\DAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T00:52:47.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PersonWithAccess.cs",
+              "DocumentMoniker": "C:\\Users\\Matheus\\source\\repos\\MeuDinheiro\\Shared.Dados\\Models\\PersonWithAccess.cs",
+              "RelativeDocumentMoniker": "Shared.Dados\\Models\\PersonWithAccess.cs",
+              "ToolTip": "C:\\Users\\Matheus\\source\\repos\\MeuDinheiro\\Shared.Dados\\Models\\PersonWithAccess.cs",
+              "RelativeToolTip": "Shared.Dados\\Models\\PersonWithAccess.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T00:50:56.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AccessProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Matheus\\source\\repos\\MeuDinheiro\\Shared.Dados\\Models\\AccessProfile.cs",
+              "RelativeDocumentMoniker": "Shared.Dados\\Models\\AccessProfile.cs",
+              "ToolTip": "C:\\Users\\Matheus\\source\\repos\\MeuDinheiro\\Shared.Dados\\Models\\AccessProfile.cs",
+              "RelativeToolTip": "Shared.Dados\\Models\\AccessProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T00:50:20.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "CostResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Matheus\\source\\repos\\MeuDinheiro\\MeuDinheiro\\Response\\CostResponse.cs",
+              "RelativeDocumentMoniker": "MeuDinheiro\\Response\\CostResponse.cs",
+              "ToolTip": "C:\\Users\\Matheus\\source\\repos\\MeuDinheiro\\MeuDinheiro\\Response\\CostResponse.cs",
+              "RelativeToolTip": "MeuDinheiro\\Response\\CostResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAB5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T13:53:43.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "MDContext.cs",
-              "DocumentMoniker": "C:\\Users\\Matheus\\source\\repos\\MeuDinheiro\\Shared.Dados\\Banco\\MDContext.cs",
-              "RelativeDocumentMoniker": "Shared.Dados\\Banco\\MDContext.cs",
-              "ToolTip": "C:\\Users\\Matheus\\source\\repos\\MeuDinheiro\\Shared.Dados\\Banco\\MDContext.cs",
-              "RelativeToolTip": "Shared.Dados\\Banco\\MDContext.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAwwCUAAAAFAAAA",
+              "DocumentMoniker": "C:\\Users\\Matheus\\source\\repos\\MeuDinheiro\\Shared.Dados\\Bank\\MDContext.cs",
+              "RelativeDocumentMoniker": "Shared.Dados\\Bank\\MDContext.cs",
+              "ToolTip": "C:\\Users\\Matheus\\source\\repos\\MeuDinheiro\\Shared.Dados\\Bank\\MDContext.cs",
+              "RelativeToolTip": "Shared.Dados\\Bank\\MDContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-30T13:47:39.277Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "dbo.Categoria [Dados]",
+              "DocumentIndex": 17,
+              "Title": "dbo.Categoria.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MeuDinheiro/True/SqlTable/dbo.Categoria.sql",
-              "ToolTip": "dbo.Categoria [Dados]",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MeuDinheiro/True/SqlTable/dbo.Categoria.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-07-30T14:17:36.961Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-30T14:17:36.961Z"
             }
           ]
         }
