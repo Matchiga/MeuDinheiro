@@ -40,7 +40,7 @@ This is a RESTful API built with ASP.NET Core and Entity Framework Core that pro
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/Matchiga/MeuDinheiro.git
+    git clone https://github.com/Matchiga/MyMoney.git
     ```
 
 2.  **Restore NuGet packages:**
